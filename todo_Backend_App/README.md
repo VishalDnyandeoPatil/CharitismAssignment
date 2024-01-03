@@ -37,7 +37,7 @@ Before you begin, ensure you have the following installed:
    
 
 ## Install Dependancy
-- npm install
+- npm install bcrypt, dotenv, express, jsonwebtoken, mongoose, nodemon
 
 ## Deploy Link
 - Visit https://vast-gold-gharial-vest.cyclic.app/
