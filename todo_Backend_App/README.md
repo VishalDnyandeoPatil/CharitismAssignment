@@ -51,7 +51,6 @@ The following API routes are available:
  - GET todos/ - Get all todos for the logged-in user.
  - GET todos/:id - Get details of a specific todo for the logged-in Admin and Super Admin.
  - POST todos/add - Add a new todo.
- <!-- - GET /todo/:id - Get details of a specific todo. -->
  - PATCH todos/:id - Update the details of a specific todo.
  - DELETE todos/:id - Delete a specific todo.
 
@@ -142,4 +141,3 @@ Update todo.
 - **Endpoint:** `todos/:id`
 - **Method:** `PATCH`
 
- ### `POST /todos`
