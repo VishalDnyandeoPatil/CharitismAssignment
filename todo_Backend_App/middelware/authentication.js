@@ -4,7 +4,7 @@ const {users}= require('../model/user_model');
 
 const{blacklist}= require('../blackList/blacklist')
 
-const auth = async(req,rtes,next)=>{
+const auth = async(req,res,next)=>{
     try {
         let token=req?.headers?.authorization;
         if(!token){
